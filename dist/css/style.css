@@ -227,4 +227,57 @@ figure .back {
   line-height: 40px;
 }
 
+.margin-top {
+  margin-top: 30px;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+.margin-both {
+  margin: 30px 0;
+}
+
+.brand {
+  font-family: "Merienda";
+}
+
+.list-inline {
+  list-style-type: none;
+  display: flex;
+}
+.list-inline li {
+  margin-right: 20px;
+}
+
+.line-space {
+  line-height: 40px;
+}
+
+.food_footer {
+  background-color: #222;
+  color: #fff;
+}
+
+.social-icons {
+  list-style-type: none;
+  display: flex;
+}
+.social-icons li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #689f38;
+  margin-right: 20px;
+  transition: 0.4s all;
+}
+.social-icons li:hover {
+  background-color: #fff;
+  color: #689f38;
+}
+
 /*# sourceMappingURL=style.css.map */
